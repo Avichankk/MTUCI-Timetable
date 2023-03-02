@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/9c755f2784.js" crossorigin="anonymous"></script>
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+	<title>MTUCI Timetable</title>	
+	<style>
+		@font-face {
+	font-family: Benzin-Semibold;
+	src: url(fonts/Benzin-Semibold.ttf);
+	}
+	@font-face {
+		font-family: Benzin-Bold;
+		src: url(fonts/Benzin-Bold.ttf);
+	}
+	@font-face {
+		font-family: Rothek-Bold;
+		src: url(fonts/rothek-bold.ttf);
+	}
+  @keyframes slide {
+    0% {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-2700px);
+    }
+      }
+	</style>
+</head>
+<body class="bg-black text-white font-montserrat">
+	<header class="header h-[750px] border-b-[3px]  border-borderColor">
+		<div class="container">
+			<div class="flex text-[14px] font-medium pt-[52px] items-center justify-between">
+				<div class=""><img src="/img/logo.svg" alt="Logo" class="w-[263px]"></div>
+				<nav class="flex flex-row space-x-[25px]">
+					<a href="#"class="">История</a>
+					<a href="#"class="">Сервисы</a>
+					<a href="#"class="">Статистика</a>
+					<a href="#"class="">Обратная связь</a>
+					<div class="btn">
+						<a href="#" class="border-solid border-2 border-blue-700 px-[19px] py-[10px] rounded-[10px] hover:bg-blue-700 hover:border-blue-700 hover:text-white duration-500">Войти</a></div>
+				</nav>
+			</div>
+			<div class="flex items-center mt-[150px]">
+				<div>
+					<div class="text-[40px] font-['Rothek-Bold']">
+						<text>Делаем сервисы, которыми</text>
+						<text class="flex items-center">пользуются тысячи <img src="img/confetti.svg"  alt="Confetti" class="h-[35px] ml-[10px]"></text>	
+					</div>
+					<p class="second-text leading-6 mt-[30px] text-[16px] leading-6">Несколько человек объединились и решили сделать жизнь студентов и преподавателей МТУСИ немного лучше, сделав возможность просмотра повседневной информации приятнее.</p>
+				</div>
+				<img src="img/circles.svg" alt="Circles" class="h-[300px]">
+			</div>
+		</div>
+	</header>
+	<section class="border-b-[3px]  border-borderColor">
+		<div class="container">
+			<div class="my-[80px]">
+				<div>
+					<p class="font-['Rothek-Bold'] text-[40px]">История</p>
+					<p class="mt-[12px] text-[16px]">Сервисы берут своё начало в 2021-ом году, тогда было только одно мини-приложение дляVK с расписанием для всего лишь одной группы.</p>
+
+					<p class="mt-[20px]">Первое большое переосмысление произошло в январе 2022-ого года, тогда появился сервер, а стало расписание доступно для уже 10-ти групп. Так продолжалось до конца февраля, тогда мы перешли на полуавтоматическую загрузку расписания, что позволило расширить поддержку в дальнейшем на весь первый курс.</p>
+						
+					<p class="mt-[20px]">В мае добавили поддержку отображения экзаменов, а в июне – личного кабинета студента</p>
+				</div>
+				<div class="mt-[21px] mr-[90px] flex items-center justify-between">
+					<div class="block">
+						<p>Мини-приложение в VK, как писали выше, существовало<br>изначально. Web-версию мы запустили в сентябре 2022-ого<br>для использования вне VK.</p> 
+
+						<p class="mt-[20px]">Изначально это был одностраничный сервис, затем с ростом<br>функционала он обзавёлся навигацией, которая сегодня<br>представляет из себя шторку со всем функционалом<br>вплоть до смены темы.</p>
+					</div>
+					<img src="img/VK.svg" alt="VK visual" class="h-[338px]">
+				</div>
+				<div class="mt-[60px] flex ml-[50px] mr-[50px] items-center justify-between">
+					<img src="img/TG.svg" alt="Telegram visual" class="h-[350px]">
+					<div>
+						<p>Бот появился немного позже, обладал<br>регистрацией и парой команд,<br>далее мы добавили экзамены, кабинет,<br>управление рассылкой и список изменений.<br></p>
+
+						<p class="mt-[20px]">Сейчас упростили навигацию в боте, заменив<br>некоторые команды на кнопки, а выбор группы<br>производится не из списка, а просто вводом.</p>
+					</div>
+				</div>
+				<div>
+					<p class="mt-[31px]">Сервисы развиваются почти каждый день, мы постоянно находимся в контакте с пользователями, прислушиваемся к их обратной связи и добавляем новый функционал. Всё это привело к почти четырём тысячам пользователей сервисов, чему мы бесконечно рады.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="border-b-[3px]  border-borderColor">
+		<div class="container">
+			<div class="mt-[80px] mb-[178px]">
+				<div>
+					<div class="flex items-center">
+						<p class="font-['Rothek-Bold'] text-[40px]">Сервисы</p>
+						<div class="flex h-full space-x-[15px] ml-[15px]">
+							<a href="#" class=""><div class="rounded-full w-[32px] h-[32px] bg-sky-800 items-center"><i class="fa-brands fa-vk text-[20px] block mt-[5.5px] ml-[6.8px]"></i></div></a>
+							<a href="#" class=""><div class="rounded-full w-[32px] h-[32px] bg-blue-600 items-center"><i class="fa-brands fa-telegram text-[20px] block mt-[5.5px] ml-[6px]"></i></div></a>
+							<a href="#" class=""><div class="rounded-full w-[32px] h-[32px] bg-slate-400 items-center"><i class="fa-solid fa-earth-americas text-[20px] block mt-[5.3px] ml-[6.1px] text-neutral-900"></i></div></a>
+							<a href="#" class=""><div class="rounded-full w-[32px] h-[32px] items-center border-dashed border-[2px] border-slate-400"><i class="fa-brands fa-android text-[18px] block mt-[4.5px] ml-[3.8px] text-slate-400"></i></div></a>
+						</div>
+					</div>
+					<p class="mt-[12px] w-[490px]">Пока работают только три сервиса из запланированных четырёх. Последний находится в стадии разработки. Мы стараемся реализовать равный функционал и общие черты сервисов для более комфортного взаимодействия и работы с нашими продуктами</p>
+				</div>
+				<div class="flex justify-between mt-[54px]">
+					<div class="border-[1px]  border-borderColor rounded-[13px] w-1/5">
+						<div class="mx-[42.5px] my-[18.5px] block">
+							<div class="flex items-center">
+								<i class="fa-solid fa-calendar text-blue-700 text-[19px]"></i>
+								<p class="font-bold text-[15px] ml-[9px]">Занятия</p>
+							</div>
+							<p class="text-[10px] font-medium mt-[6px]">Все наши сервисы отображают расписаний занятий с учётом периодов проведения и не только.</p>
+						</div>
+					</div>
+					<div class="border-[1px]  border-borderColor rounded-[13px] w-1/5">
+						<div class="mx-[42.5px] my-[18.5px] block">
+							<div class="flex items-center">
+								<i class="fa-solid fa-bookmark text-blue-700 text-[19px]"></i>
+								<p class="font-bold text-[15px] ml-[9px]">Сессия</p>
+							</div>
+							<p class="text-[10px] font-medium mt-[6px]">Ближе к сессии мы загружаем расписание консультаций и экзаменов для вашей группы.</p>
+						</div>
+					</div>
+					<div class="border-[1px]  border-borderColor rounded-[13px] w-1/5">
+						<div class="mx-[42.5px] my-[18.5px] block">
+							<div class="flex items-center">
+								<i class="fa-solid fa-user text-blue-700 text-[19px]"></i>
+								<p class="font-bold text-[15px] ml-[9px]">Кабинет</p>
+							</div>
+							<p class="text-[10px] font-medium mt-[6px]">Идентификатор из вашего деканата - вся информация о вас ваших достижениях и успеваемости.</p>
+						</div>
+					</div>
+					<div class="border-[1px]  border-borderColor rounded-[13px] w-1/5">
+						<div class="mx-[42.5px] my-[18.5px] block">
+							<div class="flex items-center">
+								<i class="fa-solid fa-map text-blue-700 text-[19px]"></i>
+								<p class="font-bold text-[15px] ml-[9px]">Группа</p>
+							</div>
+							<p class="text-[10px] font-medium mt-[6px]">Вы выбираете группу при регистрации, можете поменять её на любую другую когда захотите</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bg-[url('/img/statistic.svg')] bg-no-repeat bg-center border-b-[3px]  border-borderColor">
+		<div class="container">
+			<div class="mt-[80px] mb-[146px]">
+				<div>
+					<p class="font-['Rothek-Bold'] text-[40px]">Статистика</p>
+					<p class="w-[440px] mt-[12px]">Спустя год успешной работы мы можем поделиться с вами определёнными результатами:</p>
+				</div>
+				<div class="mt-[31px] flex space-x-[100px]">
+					<div class="space-y-[25px]">
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">>200K</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Такое количество<br>запросов обработал наш<br>сервер за месяц</p>
+						</div>
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">>200</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Именно такому числу<br>групп доступно<br>расписание занятий</p>
+						</div>
+					</div>
+					<div class="space-y-[25px]">
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">>3,8K</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Пользователей хоть<br>раз использовали<br>сервисы</p>
+						</div>
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">>1,2K</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Столько человек<br>используют сервисы<br>ежедневно</p>
+						</div>
+					</div>
+					<div class="space-y-[25px]">
+						<div class="items-center">
+							<h1 class="text-blue-700 font-bold text-[35px]">>80K</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Использований<br>сервисов каждый<br>месяц</p>
+						</div>
+						<div class="items-center">
+							<h1 class="text-blue-700 font-bold text-[35px]">~1/8</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Каждый восьмой студент<br>вуза использует сервисы<br>каждый день</p>
+						</div>
+					</div>
+					<div class="space-y-[8px]">
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">100%</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Покрытие<br>бакалавриата и<br>специалитета очной<br>формы сегодня</p>
+						</div>
+						<div>
+							<h1 class="text-blue-700 font-bold text-[35px]">~1/2</h1>
+							<p class="font-regular text-[14px] leading-[17px]">Каждый второй студент<br>вуза хоть раз<br> использовал сервисы</p>
+						</div>
+					</div>
+				</div>
+				<div class="mt-[13px]">
+					<p class="text-gray-400 text-[13px]">Информация актуальна на январь 2023 года.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="mt-[80px] mb-[146px]">
+				<div class="flex justify-between items-center">
+					<div>
+						<div>
+							<p class="font-['Rothek-Bold'] text-[40px]">Обратная связь</p>
+							<p class="w-[460px] mt-[12px]">Нам нужно мнение насчёт сервисов и ваше видение 
+								их дальнейшего развития. Также пишите нам по поводу предоставления доступа к редактированию расписания в качестве старосты вашей группы.</p>
+						</div>
+						<div class="border-[1px]  border-borderColor rounded-[13px] mt-[19px]">
+							<form action="" class="m-[24px] space-y-[14px] font-montserrat text-[13px] font-medium">
+								<input type="text" name="name" placeholder="Ваше имя" class="form__input bg-black hover:bg-black form-input border-borderColor rounded-[13px] w-[546px]"><br>
+								<input type="text" name="email" placeholder="Ваша электронная почта" class="form__input bg-black form-input border-borderColor rounded-[13px] w-[546px]"><br>
+								<textarea type="text" name="message" placeholder="Ваше сообщение" class="bg-black resize-none h-[109px] w-[546px] border-borderColor rounded-[13px]"></textarea>
+								<div class="flex space-x-[10px] items-center">
+									<div class="cf-turnstile" data-sitekey="0x4AAAAAAAAnR86SJ6tk8tO5"></div>
+									<input type="submit" value="Отправить" class="text-black bg-white font-bold h-[29px] w-[113px] rounded-[8px] text-[11px]">
+									<a href="#"><div class="text-white bg-blue-700 font-bold h-[29px] leading-[29px] w-[113px] inline-block rounded-[8px] text-center align-middle text-[11px]">Написать в VK</div></a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="mr-[50px]">
+						<img src="/img/messages.png" alt="Feedback">
+					</div>
+				</div>
+			</div>
+	</section>
+	<section>
+		<div style="width: 100%; overflow: hidden">
+      <div
+        style="
+          background-image: url(/img/lenta.svg);
+          animation: slide 180s linear infinite;
+          width: 5400px;
+          height: 2.25rem;
+          background-repeat: repeat-x;
+        "
+      ></div>
+    </div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="my-[40px] flex items-center justify-between">
+				<div>
+					<img src="/img/favicon.svg" alt="Footer Logo" class="w-[100px]">
+				</div>
+				<div class="flex space-x-[24px]">
+					<div>
+						<p class="font-bold text-[17px]">Сервисы</p>
+						<div class="mt-[5px] text-[14px]">
+							<a href="#"><div class="font-regular text-gray-700">Приложение для Android</div></a>
+							<a href="#"><div class="font-regular text-gray-300 mt-[5px]">Бот в Telegram</div></a>
+							<a href="#"><div class="font-regular text-gray-300 mt-[5px]">Приложение в VK</div></a>
+							<a href="#"><div class="font-regular text-gray-300 mt-[5px]">Web-версия</div></a>
+						</div>
+					</div>
+					<div class="space-y-[5px]">
+						<p class="font-bold text-[17px]">Ссылки</p>
+						<div class="mt-[9px] text-[14px]">
+							<a href="#"><div class="font-regular text-gray-300">Мы в VK</div></a>
+							<a href="#"><div class="font-regular text-gray-300 mt-[5px]">Доступность расписания</div></a>
+							<a href="#"><div class="rounded-[10px] border-[2px] border-blue-700 text-center mt-[14px] hover:bg-blue-700 hover:border-blue-700 hover:text-white duration-500"><p class="my-[8px] font-bold text-[14px]">Поддержать</p></div></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
